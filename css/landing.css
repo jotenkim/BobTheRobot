@@ -1,0 +1,155 @@
+    body {
+        padding-top: 100px;
+    }
+
+    .jumbotron {
+        height: 1000px;
+        text-align: center;
+    }
+
+    .jumbotron h1 {
+        text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+        font-weight: bold;
+    }
+
+    .jumbotron p {
+        text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+        font-weight: 300;
+    }
+
+    nav {
+        height: 80px;
+        color: white;
+        background: rgb(65, 68, 73);
+        /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(65, 68, 73, 1) 0%, rgba(0, 0, 0, 1) 11%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 86%, rgba(65, 68, 73, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(65, 68, 73, 1) 0%, rgba(0, 0, 0, 1) 11%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 86%, rgba(65, 68, 73, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(65, 68, 73, 1) 0%, rgba(0, 0, 0, 1) 11%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 86%, rgba(65, 68, 73, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+    .navbar-brand {
+        height: 80px;
+        padding-top: 15px;
+        font-family: 'Poiret One', cursive;
+        color: white;
+        font-size: 40px;
+        letter-spacing: 3px;
+        float: none;
+        text-transform: uppercase;
+        text-align: center;
+        display: inline-block;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        transition: top 0.2s ease-in-out;
+    }
+
+    h1 {
+        padding-top: 5px;
+        font-family: 'Poiret One', cursive;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    h4 {
+        font-size: 40px;
+        margin-bottom: -20px;
+    }
+
+    @media (max-width: 620px) {
+        #omanimimedia {
+            font-size: 30px;
+            padding: none;
+            margin-top: 5px;
+        }
+    }
+
+    @media (max-width: 420px) {
+        #omanimimedia {
+            font-size: 25px;
+            padding: none;
+            margin-top: 7px;
+        }
+    }
+
+    #paanamiska {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        padding-bottom: px;
+        margin-top: 40px;
+        -webkit-box-shadow: 0px 0px 21px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 21px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 21px -4px rgba(0, 0, 0, 0.75);
+    }
+
+    #naamakuva {
+        border-radius: 150px;
+        -webkit-box-shadow: 0px 0px 21px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 21px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 21px -4px rgba(0, 0, 0, 0.75);
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        margin-top: 50px;
+    }
+
+    .collapse {
+        background-color: rgba(101, 150, 199, 0.12);
+        border-radius: 10px;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    #learnmore {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        height: 400px;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: -20px;
+        color: white;
+        background: rgb(0, 0, 0);
+        /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 1) 42%, rgba(65, 68, 73, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 1) 42%, rgba(65, 68, 73, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(0, 0, 0, 1) 42%, rgba(65, 68, 73, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+    .nav-up {
+        top: -200px;
+    }
+
+    .headroom {
+        will-change: transform;
+        transition: transform 200ms linear;
+    }
+
+    .headroom--pinned {
+        transform: translateY(0%);
+    }
+
+    .headroom--unpinned {
+        transform: translateY(-100%);
+    }
+
+    i {
+        padding: 2px;
+        margin-bottom: -10px;
+    }
